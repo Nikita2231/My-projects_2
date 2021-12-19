@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8E2266D-C8F4-4885-A34B-129EBD042D69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyFirstProject</RootNamespace>
+    <AssemblyName>MyFirstProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aquarium.cs" />
+    <Compile Include="Bubble.cs" />
+    <Compile Include="Fish.cs" />
+    <Compile Include="AquariumF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AquariumF.Designer.cs">
+      <DependentUpon>AquariumF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImF.Designer.cs">
+      <DependentUpon>ImF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FishF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FishF.Designer.cs">
+      <DependentUpon>FishF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectInWater.cs" />
+    <Compile Include="Plant.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="The_End.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The_End.Designer.cs">
+      <DependentUpon>The_End.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AquariumF.resx">
+      <DependentUpon>AquariumF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImF.resx">
+      <DependentUpon>ImF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FishF.resx">
+      <DependentUpon>FishF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The_End.resx">
+      <DependentUpon>The_End.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8b544d713911eb6c5bb4eb2e3c370e44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonstola.ru-116042.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_19430893-stock-photo-siamese-fighting-fish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Im2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Im3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8b544d713911eb6c5bb4eb2e3c370e44 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Im3 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Im2 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteM1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FishC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FishC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteM2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plant1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-Kill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteM1 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FishC1 Kill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neon1 Kill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plant-Kill.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

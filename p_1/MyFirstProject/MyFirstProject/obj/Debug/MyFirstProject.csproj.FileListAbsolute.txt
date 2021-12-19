@@ -1,0 +1,14 @@
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe.config
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.exe
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\bin\Debug\MyFirstProject.pdb
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.Properties.Resources.resources
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.Resource1.resources
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.GenerateResource.cache
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.exe
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.pdb
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.AquariumF.resources
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.ImF.resources
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.FishF.resources
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.The_End.resources
+C:\Users\Nikita\source\repos\MyFirstProject\MyFirstProject\obj\Debug\MyFirstProject.csproj.AssemblyReference.cache

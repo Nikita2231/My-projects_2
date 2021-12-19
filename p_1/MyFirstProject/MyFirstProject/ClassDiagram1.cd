@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyFirstProject.Fish">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAIAEAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFirstProject.Bubble">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bubble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFirstProject.ObjectInWater">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAIACDAAAAAAAAAAABABAEA=</HashCode>
+      <FileName>ObjectInWater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFirstProject.Aquarium">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABhAIAAAQCAAAACAAAAEQAEAEAAgAAAAAADAokA=</HashCode>
+      <FileName>Aquarium.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyFirstProject.Plant">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
